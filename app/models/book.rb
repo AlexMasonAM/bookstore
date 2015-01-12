@@ -3,5 +3,5 @@ class Book
   field :title, type: String
   field :genre, type: String
   field :price, type: Float
-  embedded_in :author
+  belongs_to :author
 end
